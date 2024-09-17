@@ -23,7 +23,7 @@ if hist_button:  # al hacer clic en el botón se despliega un mensaje
 scat_button = st.button('Contruir un diagrama de dispersion')
 
 if scat_button:
-    st.writte("Creación de un diagrama de dispersión entre kilometraje y precio")
+    st.write("Creación de un diagrama de dispersión entre kilometraje y precio")
 
     # crear el diagrama de dispersión
     fig2 = px.scatter(car_data, x='odometer', y='price',
